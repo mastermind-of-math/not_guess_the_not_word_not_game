@@ -1,0 +1,47 @@
+body{
+	background: rgb(0, 191, 255);
+    font-family: monospace;
+}
+
+.user_1, .user_2{
+    font-family: monospace;
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+    font-size:30px;
+}	
+#inputname_1, #inputname_2{
+    margin-top: 40px;
+	display: inline-block;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 30px;
+}
+#word{
+	width: 60%;
+}
+#word_display{
+	letter-spacing: 5px;
+}
+#output{
+background: rgb(211, 211, 211);
+border-radius: 10px;
+border-top: 10px solid #4400ff;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.btn-primary{
+    width:300px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.btn-primary:hover{
+    color: black;
+}
+#playerone, #playertwo{
+    display:inline-block;
+}
